@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* overflow: hidden; */
+
+}
+
+.nav{
+    width: 100%;
+    position: fixed;
+    
+    
+}
+.navbar {
+    width: 100%;
+    background-color: black;
+}
+
+.icon {
+    width: 25px;
+}
+.main{
+    background-color: gray;
+    padding-top: 6%;
+}
+.Pearent {
+    width: 100%;
+    padding: 2%;
+
+}
+
+.child_Pearent1 {
+    width: 100%;
+    padding: 20px;
+    border: 3px solid #000000;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.ch_pr_ch1,
+.ch_pr_ch2,
+.ch_pr_ch3 {
+    /* border: 1px solid red; */
+    /* padding: 1%; */
+    margin: 1%;
+
+}
+
+.ch_pr_heading {
+    color: #003cff;
+    font-weight: 900;
+    letter-spacing: 1%;
+}
+
+.inp_field {
+    width: 500px;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+    color: white;
+    background-color: #000000c9;
+    font-size: larger;
+
+}
+
+.inp_field_select {
+    width: 50%;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+    color: white;
+    background-color: #000000c9;
+    font-size: larger;
+}
+
+.inp_field_btn {
+    width: 30%;
+    padding: 15px;
+    margin: 1%;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgb(0, 0, 0);
+}
+
+.inp_field:focus {
+    outline: none;
+    border: 5px solid white;
+
+}
+
+.inp_field::placeholder {
+    color: white;
+}
+
+.inp_field_select:focus {
+    outline: none;
+    border: 5px solid white;
+
+}
+
+.inp_field_btn:hover {
+    width: 30%;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: -1px -1px 4px rgb(0, 0, 0);
+}
+
+
+/* =====================dataset style ============= */
+.Pearent2 {
+    width: 100%;
+    height: 585px;
+    /* background-color: gray; */
+    padding: 2%;
+    overflow-y: scroll;
+}
+
+.child_Pearent2 {
+    width: 100%;
+    border: 3px solid #000000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tbl {
+    width: 100%;
+    border: 5px solid #000000;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.tblhead{
+    font-size: large;
+    color: #fff;
+    background-color: #000000;
+}
+.tblheadtr{
+    padding: 10px;
+}
+.tblbody{
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+
+}
+.tblbodytr{
+    border-bottom: 1px solid #000;
+    padding: 10px;
+
+}
