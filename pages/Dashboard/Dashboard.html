@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sub_main">
+            <h1 class="head_dash">Student Form</h1>
+            <label class="inp_lbl" for="std_Name">Name : </label><br>
+            <input type="text" name="" class="input" placeholder="Enter your Student Name" id="std_Name">
+            <br><br>
+            <label class="inp_lbl" for="std_FatherName">Father Name : </label><br>
+            <input type="text" name="" class="input" placeholder="Enter your Father Name" id="std_FatherName">
+            <br><br>
+            <label class="inp_lbl" for="std_Name">Email :</label><br>
+            <input type="email" name="" class="input" placeholder="Enter your email" id="std_Email">
+            <br><br>
+            <label class="inp_lbl" for="std_Name">Age :</label><br>
+            <input type="number" name="" class="input" placeholder="Enter your age" id="std_Age">
+            <br><br>
+            <label class="inp_lbl" for="std_Name">Contect Number :</label><br>
+            <input type="number" name="" class="input" placeholder="Enter your content number" id="std_Contect">
+            <br><br>
+            <label class="inp_lbl" for="std_Name">Course :</label><br>
+          <select class="input_dropdown"  name="" id="std_Course">
+            <option disabled selected>Select a Course</option>
+            <option >Web & Mobail Devolopment</option>
+            <option >Machine learning</option>
+            <option >AI Chatbot</option>
+            <option >Python</option>
+          </select>
+            <button class="btn_submit" onclick="submit()">Submit</button>
+            <!-- <br><br> -->
+            <button class="btn_Signout" onclick="signout()">Sign Out</button>
+        </div>
+        <div class="sub_main1">
+            <h1 class="head_dash">Student Data</h1>
+            <table class="data_tbl">
+                <thead class="tbl_head">
+                    <tr>
+                        <th>Name</th>
+                        <th>Father Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Contect Number</th>
+                        <th>Course</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="tbl_body" id="tbl_body" >
+                </tbody>
+            </table>
+
+           
+           
+        </div>
+    </div>
+    <script type="module" src="dashboard.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.14.0/sweetalert2.all.js" integrity="sha512-HE6XTjw3UV1hqENThKtsSn4mr3sx/lXbTSVPlOdIU3pprqz5ti16sGIGw8y5EAePRYg80O3OEBRnXPwON7vOUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

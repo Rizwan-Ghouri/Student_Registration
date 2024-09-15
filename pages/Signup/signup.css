@@ -2,12 +2,16 @@
     margin: 0%;
 }
 .main{
+    /* width: 100%; */
     height: 640px;
     /* border: 1px solid red; */
+    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: aqua; */
     background-color: #00ffff4b;
+
 }
 .sub_main{
     width: 30%;
@@ -16,6 +20,7 @@
     padding: 15px;
 }
 .head_login{
+    /* border: 1px solid red; */
     text-align: center;
     margin-bottom: 10%;
     letter-spacing: 3px;
@@ -28,29 +33,29 @@
 .input{
     width: 96%;
     font-size: large;
-    border-radius: 10px;
     padding: 5px;
     border: 1px solid outset;
+    border-radius: 10px;
     background-color: transparent;
 }
-.btn_login{
+/* .btn_login{
     width: 40%;
     font-size: 100%;
     font-weight: bold;
     padding: 10px;
-    margin-left: 20px;
+    margin: 18px;
     text-align: center;
     color: white;
     background-color: blue;
-    border-radius: 10px;
-}
-.btn_Signup{
-    width: 40%;
-    font-size: 100%;
-    font-weight: bold;
-    padding: 10px;
-    margin-left: 18px;
-    text-align: center;
-    background-color: aqua;
-    border-radius: 10px;
-}
+    } */
+    .btn_Signup{
+        width: 91%;
+        font-size: 100%;
+        font-weight: bold;
+        padding: 10px;
+        margin: 18px;
+        text-align: center;
+        /* background-color: aqua; */
+        background-color: blue;
+        border-radius: 10px;
+    }
