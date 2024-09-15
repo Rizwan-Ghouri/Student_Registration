@@ -58,7 +58,7 @@ window.login = () => {
             });
             //...
             function godash() {
-                location.replace("/Dashboard/Dashboard.html")
+                location.replace("Dashboard.html")
             }
             setTimeout(godash, 1500)
         })
@@ -75,5 +75,5 @@ window.login = () => {
     loginPass.value = ""
 }
 window.signup = () => {
-    location.replace("/Signup/signup.html")
+    location.replace("signup.html")
 }

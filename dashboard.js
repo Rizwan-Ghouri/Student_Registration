@@ -68,7 +68,7 @@ window.signout = () => {
                 icon: "success"
             });
             function gologin() {
-                location.replace("/index.html")
+                location.replace("index.html")
             }
             setTimeout(gologin, 1500)
             //...
