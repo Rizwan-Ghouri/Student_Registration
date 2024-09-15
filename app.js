@@ -38,7 +38,6 @@ window.login = () => {
     signInWithEmailAndPassword(auth, loginObj.loginEmail, loginObj.loginPass)
         .then(async (userRes) => {
             // const user = userRes.user;
-            // console.log(user);
 
             // Signed in getdata
             let id = userRes.user.uid;
