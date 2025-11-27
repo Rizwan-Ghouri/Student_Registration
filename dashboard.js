@@ -44,7 +44,7 @@ window.submit = async () => {
         stdCourse: stdCourse.value
     }
     console.log(stdobj);
-    const refrence = await collection(db, "Student")
+    const refrence = await collection(db, "StudentRegister")
     addDoc(refrence, stdobj)
         .then((res) => {
             // console.log("Success");
