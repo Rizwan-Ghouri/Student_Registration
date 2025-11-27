@@ -80,7 +80,7 @@ window.signup = () => {
 
 
 onAuthStateChanged(auth, (user) => {
-        if (user) {
+        if (!user) {
             const uid = user.uid;
                 location.replace("Dashboard.html")
         } 
