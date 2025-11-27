@@ -111,7 +111,7 @@ const rendertbl = () => {
 }
 
 const getData = async () => {
-    const dtrefrence = collection(db, "Student");
+    const dtrefrence = collection(db, "StudentRegister");
     const dt = await getDocs(dtrefrence);
 
     dt.forEach((doc) => {
